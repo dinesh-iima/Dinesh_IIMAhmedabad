@@ -150,7 +150,7 @@ Calibrated insulin sensitivity correlates **r = 0.92** (log scale) with the simu
 
 **Demo video (unlisted YouTube, about 20 minutes): https://youtu.be/ADD_YOUR_VIDEO_ID**
 
-The video walks through the presentation and then demonstrates the live doctor console. The full narration script with timings is in [`docs/Demo_Video_Script.md`](docs/Demo_Video_Script.md), and every slide carries speaker notes.
+The video walks through the presentation and then demonstrates the live doctor console.
 
 ## 9. Open-source licence
 
@@ -178,7 +178,7 @@ The deck covers the executive summary, problem, solution, data, twin engine, AI 
 
 ## 12. Public access to all files
 
-Everything needed to evaluate the project is inside this public repository: code, synthetic data, trained models, calibrated twins, metrics, figures, architecture diagram, presentation and video script. No file needs a login or special permission. The demo video is an unlisted YouTube link, which anyone with the link can watch.
+Everything needed to evaluate the project is inside this public repository: code, synthetic data, trained models, calibrated twins, metrics, figures, architecture diagram and presentation. No file needs a login or special permission. The demo video is an unlisted YouTube link, which anyone with the link can watch.
 
 ---
 
@@ -308,7 +308,7 @@ Dinesh_IIMAhmedabad/
 |-- data/                     ehr (CSV + FHIR), wearables, ground_truth, processed (per patient)
 |-- models/                   spike_model.txt, forecast_*.txt, feature_list.json, twins/*.json
 |-- reports/                  metrics.json, figures
-|-- docs/                     Architecture_Diagram (PDF, PPTX), GlucoSentinel_Presentation (PDF, PPTX), Demo_Video_Script.md
+|-- docs/                     Architecture_Diagram (PDF, PPTX), GlucoSentinel_Presentation (PDF, PPTX)
 `-- tests/test_core.py
 ```
 
