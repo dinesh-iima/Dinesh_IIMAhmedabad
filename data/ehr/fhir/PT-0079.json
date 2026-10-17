@@ -1,0 +1,428 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "id": "bundle-PT-0079",
+ "entry": [
+  {
+   "resource": {
+    "resourceType": "Patient",
+    "id": "PT-0079",
+    "name": [
+     {
+      "text": "Bhavna S."
+     }
+    ],
+    "gender": "female",
+    "extension": [
+     {
+      "url": "age-years",
+      "valueInteger": 50
+     }
+    ],
+    "address": [
+     {
+      "city": "Jaipur",
+      "country": "IN"
+     }
+    ],
+    "meta": {
+     "tag": [
+      {
+       "code": "synthetic",
+       "display": "Synthetic record, not a real person"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Condition",
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "http://hl7.org/fhir/sid/icd-10",
+       "code": "E11.9",
+       "display": "Type 2 diabetes mellitus"
+      }
+     ]
+    },
+    "extension": [
+     {
+      "url": "duration-years",
+      "valueDecimal": 2.7
+     }
+    ]
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Condition",
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "http://hl7.org/fhir/sid/icd-10",
+       "code": "I10",
+       "display": "Essential (primary) hypertension"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 6.9,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 116.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "39156-5",
+       "display": "Body mass index (BMI) [Ratio]"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 25.4,
+     "unit": "kg/m2"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8280-0",
+       "display": "Waist Circumference at umbilicus by Tape measure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 79.0,
+     "unit": "cm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8480-6",
+       "display": "Systolic blood pressure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 135.0,
+     "unit": "mm[Hg]"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8462-4",
+       "display": "Diastolic blood pressure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 81.0,
+     "unit": "mm[Hg]"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "18262-6",
+       "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 137.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2085-9",
+       "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 47.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 152.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "62238-1",
+       "display": "Glomerular filtration rate/1.73 sq M.predicted (CKD-EPI)"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 87.0,
+     "unit": "mL/min/{1.73_m2}"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "40443-4",
+       "display": "Heart rate --resting"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 71.5,
+     "unit": "/min"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2026-02-18",
+    "valueQuantity": {
+     "value": 6.4,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "effectiveDateTime": "2025-08-22",
+    "valueQuantity": {
+     "value": 6.9,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "MedicationStatement",
+    "status": "active",
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "medicationCodeableConcept": {
+     "coding": [
+      {
+       "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+       "code": "6809",
+       "display": "Metformin 500 MG Oral Tablet"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "69548-6",
+       "display": "Genetic variant assessment"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0079"
+    },
+    "component": [
+     {
+      "code": {
+       "text": "TCF7L2 rs7903146 T allele count"
+      },
+      "valueInteger": 2
+     },
+     {
+      "code": {
+       "text": "Type 2 diabetes polygenic risk score (z)"
+      },
+      "valueDecimal": 0.04
+     }
+    ]
+   }
+  }
+ ]
+}

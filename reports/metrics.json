@@ -1,0 +1,259 @@
+{
+ "task": "Predict onset of a CGM glucose excursion above 180 mg/dL (lasting 15 min or more) within the next 120 minutes",
+ "cohort": {
+  "patients": 120,
+  "train": 84,
+  "validation": 12,
+  "test": 24,
+  "days_per_patient": 14,
+  "readings_5min": 483840,
+  "test_rows": 35601,
+  "test_positive_rate": 0.299
+ },
+ "ablation_test": {
+  "EHR only": {
+   "auroc": 0.9042,
+   "auprc": 0.7808,
+   "n_features": 26
+  },
+  "Wearables only": {
+   "auroc": 0.9295,
+   "auprc": 0.8485,
+   "n_features": 40
+  },
+  "EHR + Wearables (fusion)": {
+   "auroc": 0.9298,
+   "auprc": 0.8477,
+   "n_features": 63
+  },
+  "GlucoSentinel: EHR + Wearables + Twin": {
+   "auroc": 0.9605,
+   "auprc": 0.9077,
+   "n_features": 81
+  },
+  "CGM trend alarm (projected 30 min)": {
+   "auroc": 0.6423,
+   "auprc": 0.4312
+  },
+  "Twin physiology alone": {
+   "auroc": 0.9208,
+   "auprc": 0.8439
+  }
+ },
+ "operating_threshold": 0.75,
+ "episodes_test_glucosentinel": {
+  "spike_episodes": 582,
+  "warned_30min_ahead_pct": 84.7,
+  "warned_any_lead_pct": 91.8,
+  "median_lead_min": 95.0,
+  "alert_precision_pct": 79.1,
+  "false_alerts_per_day": 0.82,
+  "alerts_per_day": 3.93
+ },
+ "episodes_test_fusion_only": {
+  "spike_episodes": 582,
+  "warned_30min_ahead_pct": 77.1,
+  "warned_any_lead_pct": 88.0,
+  "median_lead_min": 75.0,
+  "alert_precision_pct": 78.6,
+  "false_alerts_per_day": 0.76,
+  "alerts_per_day": 3.54
+ },
+ "episodes_test_cgm_trend_alarm": {
+  "spike_episodes": 582,
+  "warned_30min_ahead_pct": 27.5,
+  "warned_any_lead_pct": 83.7,
+  "median_lead_min": 15.0,
+  "alert_precision_pct": 65.2,
+  "false_alerts_per_day": 1.62,
+  "alerts_per_day": 4.67
+ },
+ "fusion_threshold": 0.725,
+ "forecast_test": {
+  "30 min": {
+   "persistence_rmse": 27.0,
+   "twin_rmse": 22.3,
+   "glucosentinel_rmse": 12.0,
+   "glucosentinel_mae": 7.9
+  },
+  "60 min": {
+   "persistence_rmse": 43.1,
+   "twin_rmse": 27.1,
+   "glucosentinel_rmse": 19.2,
+   "glucosentinel_mae": 11.5
+  },
+  "90 min": {
+   "persistence_rmse": 50.6,
+   "twin_rmse": null,
+   "glucosentinel_rmse": 22.1,
+   "glucosentinel_mae": 13.4
+  },
+  "120 min": {
+   "persistence_rmse": 52.6,
+   "twin_rmse": 35.4,
+   "glucosentinel_rmse": 23.3,
+   "glucosentinel_mae": 14.5
+  }
+ },
+ "clarke_grid_60min_pct": {
+  "A": 93.5,
+  "B": 6.1,
+  "C": 0.0,
+  "D": 0.5,
+  "E": 0.0
+ },
+ "importance_share_by_group_pct": {
+  "E": 3.5,
+  "R": 50.2,
+  "T": 26.2,
+  "W": 20.2
+ },
+ "top_features": [
+  {
+   "feature": "habit_spike_rate_next_2h",
+   "mean_abs_shap": 1.6382
+  },
+  {
+   "feature": "twin_habit_max_2h",
+   "mean_abs_shap": 0.4479
+  },
+  {
+   "feature": "habit_meal_offset_min",
+   "mean_abs_shap": 0.2862
+  },
+  {
+   "feature": "twin_habit_minutes_above180",
+   "mean_abs_shap": 0.244
+  },
+  {
+   "feature": "twin_max_2h",
+   "mean_abs_shap": 0.1916
+  },
+  {
+   "feature": "hour_cos",
+   "mean_abs_shap": 0.1622
+  },
+  {
+   "feature": "habit_carbs_next_2h",
+   "mean_abs_shap": 0.1587
+  },
+  {
+   "feature": "steps_today",
+   "mean_abs_shap": 0.1514
+  },
+  {
+   "feature": "twin_fc_60m",
+   "mean_abs_shap": 0.0685
+  },
+  {
+   "feature": "hrv_rel_baseline",
+   "mean_abs_shap": 0.0557
+  },
+  {
+   "feature": "hour_sin",
+   "mean_abs_shap": 0.0518
+  },
+  {
+   "feature": "min_since_logged_meal",
+   "mean_abs_shap": 0.0489
+  },
+  {
+   "feature": "twin_fc_30m",
+   "mean_abs_shap": 0.0464
+  },
+  {
+   "feature": "weekend",
+   "mean_abs_shap": 0.0459
+  },
+  {
+   "feature": "cgm_mean_24h",
+   "mean_abs_shap": 0.0432
+  },
+  {
+   "feature": "cgm_delta_15m",
+   "mean_abs_shap": 0.0347
+  },
+  {
+   "feature": "twin_basal_glucose",
+   "mean_abs_shap": 0.0321
+  },
+  {
+   "feature": "hba1c_pct",
+   "mean_abs_shap": 0.0297
+  },
+  {
+   "feature": "twin_carbs_on_board_g",
+   "mean_abs_shap": 0.0282
+  },
+  {
+   "feature": "resting_hr",
+   "mean_abs_shap": 0.0275
+  }
+ ],
+ "subgroups_test": {
+  "sex=F": {
+   "n_patients": 8,
+   "auroc": 0.967
+  },
+  "sex=M": {
+   "n_patients": 16,
+   "auroc": 0.957
+  },
+  "region=east": {
+   "n_patients": 2,
+   "auroc": 0.955
+  },
+  "region=north": {
+   "n_patients": 2,
+   "auroc": 0.974
+  },
+  "region=south": {
+   "n_patients": 12,
+   "auroc": 0.961
+  },
+  "region=west": {
+   "n_patients": 8,
+   "auroc": 0.957
+  },
+  "diagnosis=Prediabetes": {
+   "n_patients": 3,
+   "auroc": 0.965
+  },
+  "diagnosis=Type 2 diabetes mellitus": {
+   "n_patients": 21,
+   "auroc": 0.958
+  }
+ },
+ "twin_parameter_recovery": {
+  "insulin_sensitivity": {
+   "ehr_prior_r": 0.894,
+   "calibrated_twin_r": 0.917
+  },
+  "beta_cell_response": {
+   "ehr_prior_r": 0.804,
+   "calibrated_twin_r": 0.811
+  }
+ },
+ "whatif_example": {
+  "patient": "PT-0054",
+  "time": "2026-09-10 12:30",
+  "scenarios": {
+   "Usual: rice, sambar, poriyal": {
+    "peak": 328,
+    "minutes_above_180": 75
+   },
+   "Same lunch + 20-min walk": {
+    "peak": 313,
+    "minutes_above_180": 75
+   },
+   "Swap to bajra roti + dal": {
+    "peak": 220,
+    "minutes_above_180": 65
+   },
+   "Swap + 20-min walk": {
+    "peak": 216,
+    "minutes_above_180": 65
+   }
+  }
+ }
+}

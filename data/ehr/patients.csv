@@ -1,0 +1,121 @@
+patient_id,display_name,sex,age,region,city,diagnosis,icd10,diabetes_duration_y,bmi,waist_cm,hypertension,dyslipidaemia,family_history_t2d,tcf7l2_rs7903146_risk_alleles,t2d_prs,on_metformin,on_sulfonylurea,on_dpp4i,resting_hr,sbp,dbp,ldl,hdl,triglycerides,egfr,hba1c_pct,hba1c_6m_ago,hba1c_12m_ago,fpg_mgdl
+PT-0001,Rekha R.,F,48,south,Hyderabad,Type 2 diabetes mellitus,E11.9,12.7,23.4,78.7,True,True,True,1,0.65,True,False,False,73.7,153,81,128,38,195,77,7.9,7.7,7.8,128
+PT-0002,Pranav R.,M,41,east,Kolkata,Type 2 diabetes mellitus,E11.9,0.2,23.4,87.1,False,False,False,0,1.1,True,False,True,66.0,129,75,109,25,106,98,5.8,6.1,6.8,132
+PT-0003,Karthik D.,M,45,east,Kolkata,Type 2 diabetes mellitus,E11.9,0.4,29.7,100.2,False,False,True,2,0.4,True,False,True,67.1,128,80,137,42,195,84,7.7,8.0,8.0,179
+PT-0004,Lakshmi S.,F,57,south,Coimbatore,Type 2 diabetes mellitus,E11.9,11.2,29.8,97.4,True,False,False,1,-0.56,True,True,False,63.2,139,70,96,27,60,77,7.6,7.4,7.5,148
+PT-0005,Deepak I.,M,54,south,Chennai,Prediabetes,R73.03,0.0,24.9,88.5,False,True,True,0,-0.4,False,False,False,74.2,131,80,116,34,143,99,6.3,6.7,6.7,114
+PT-0006,Ajay K.,M,38,north,Kanpur,Type 2 diabetes mellitus,E11.9,8.1,25.1,85.2,True,True,False,0,-1.15,True,False,False,72.7,118,76,142,44,170,79,6.8,7.1,7.6,133
+PT-0007,Ramesh T.,M,54,west,Pune,Type 2 diabetes mellitus,E11.9,5.7,22.8,78.4,False,False,False,1,-0.06,True,False,True,66.1,122,79,100,34,126,78,6.9,7.0,7.4,124
+PT-0008,Suresh P.,M,53,west,Ahmedabad,Type 2 diabetes mellitus,E11.9,10.1,24.0,82.1,False,True,False,1,-0.57,True,False,False,68.3,135,85,102,29,167,101,7.3,7.7,8.0,129
+PT-0009,Ashok I.,M,43,south,Bengaluru,Type 2 diabetes mellitus,E11.9,1.2,25.9,84.5,True,False,False,0,-0.02,True,True,False,69.0,143,85,102,42,105,96,7.2,7.2,6.9,143
+PT-0010,Sanjay B.,M,50,east,Guwahati,Type 2 diabetes mellitus,E11.9,6.2,28.5,98.6,False,True,False,1,1.22,False,False,False,70.6,128,85,63,38,211,95,7.6,7.7,7.3,128
+PT-0011,Hitesh K.,M,60,north,Kanpur,Type 2 diabetes mellitus,E11.9,11.5,25.9,90.3,False,True,False,0,0.53,True,False,False,63.6,122,79,128,41,199,85,8.4,8.6,8.8,139
+PT-0012,Imran S.,M,52,west,Mumbai,Type 2 diabetes mellitus,E11.9,4.8,23.3,83.0,False,False,True,1,-0.92,True,False,True,77.4,124,79,100,35,80,88,7.0,7.1,7.5,159
+PT-0013,Sunita M.,F,46,south,Bengaluru,Type 2 diabetes mellitus,E11.9,4.5,33.3,102.0,False,True,False,1,0.54,True,False,False,80.9,139,79,131,39,261,86,9.0,9.5,10.1,195
+PT-0014,Shalini K.,F,39,south,Chennai,Type 2 diabetes mellitus,E11.9,4.6,26.2,84.1,True,False,True,0,0.37,True,False,False,67.5,146,82,110,44,217,89,7.9,7.2,6.7,165
+PT-0015,Arjun M.,M,64,west,Pune,Type 2 diabetes mellitus,E11.9,4.1,26.8,96.0,False,False,False,0,0.66,False,False,False,62.3,123,75,107,48,94,93,7.6,7.6,7.6,151
+PT-0016,Geeta I.,F,41,south,Hyderabad,Type 2 diabetes mellitus,E11.9,10.6,23.6,82.8,True,True,False,0,0.27,True,False,False,75.2,146,86,121,48,195,94,6.5,5.9,5.4,105
+PT-0017,Sunil R.,M,53,south,Coimbatore,Prediabetes,R73.03,0.0,23.0,85.4,False,False,False,0,-0.19,False,False,False,63.8,122,74,106,32,121,115,5.5,5.5,5.3,114
+PT-0018,Mahesh M.,M,62,east,Kolkata,Type 2 diabetes mellitus,E11.9,11.7,22.1,78.7,True,False,False,0,-1.29,True,False,False,64.4,130,91,103,38,79,84,5.6,5.8,5.8,118
+PT-0019,Harish T.,M,57,west,Ahmedabad,Type 2 diabetes mellitus,E11.9,5.9,27.1,93.6,False,False,False,0,-0.88,True,False,False,68.0,128,83,98,38,79,74,7.5,7.6,8.0,142
+PT-0020,Mahesh R.,M,40,east,Ranchi,Prediabetes,R73.03,0.0,20.0,76.1,False,True,False,0,-1.11,False,False,False,69.2,116,77,130,49,152,115,5.8,6.3,6.2,109
+PT-0021,Sunita M.,F,51,east,Patna,Type 2 diabetes mellitus,E11.9,10.2,28.9,90.2,True,False,False,1,1.89,True,True,False,69.0,129,75,147,34,243,90,8.0,8.3,8.1,153
+PT-0022,Sunita M.,F,53,south,Kochi,Type 2 diabetes mellitus,E11.9,5.6,28.0,87.4,False,False,False,1,0.74,True,True,False,72.0,132,82,156,30,157,93,7.7,6.9,6.9,172
+PT-0023,Meena D.,F,42,west,Surat,Type 2 diabetes mellitus,E11.9,5.5,21.5,75.4,True,True,False,0,0.43,True,False,False,59.9,125,84,94,43,238,87,7.2,6.9,7.4,119
+PT-0024,Pranav N.,M,66,south,Chennai,Type 2 diabetes mellitus,E11.9,5.3,32.6,108.5,False,True,True,2,0.35,True,False,True,67.1,132,79,101,38,137,77,6.1,6.8,7.7,109
+PT-0025,Harpreet J.,F,55,west,Pune,Type 2 diabetes mellitus,E11.9,25.0,26.7,90.5,False,False,False,0,0.23,True,True,False,72.6,133,79,142,32,181,99,8.3,9.0,8.6,160
+PT-0026,Ajay K.,M,58,west,Pune,Prediabetes,R73.03,0.0,21.1,82.5,False,True,False,1,0.02,False,False,False,66.5,126,78,79,41,125,84,6.1,6.3,6.3,115
+PT-0027,Bhavesh J.,M,42,west,Mumbai,Type 2 diabetes mellitus,E11.9,3.2,27.8,90.1,False,False,True,0,-0.48,True,False,False,63.2,126,79,106,25,182,91,6.1,5.7,5.6,120
+PT-0028,Ajay Y.,M,41,north,Kanpur,Type 2 diabetes mellitus,E11.9,4.6,22.8,84.4,True,False,True,1,-0.7,True,False,False,68.5,124,90,119,41,62,94,6.7,7.6,8.1,129
+PT-0029,Prakash M.,M,59,west,Vadodara,Type 2 diabetes mellitus,E11.9,2.1,23.1,87.3,False,False,False,1,0.49,True,False,True,72.5,136,72,64,48,107,82,6.0,5.4,5.7,113
+PT-0030,Swati K.,F,56,south,Hyderabad,Type 2 diabetes mellitus,E11.9,2.7,19.0,71.0,True,True,False,1,-0.49,True,False,False,78.1,146,88,148,44,194,97,6.4,6.6,7.2,121
+PT-0031,Bhavna M.,F,55,south,Coimbatore,Type 2 diabetes mellitus,E11.9,16.9,30.0,92.2,False,False,False,0,0.23,False,False,False,73.1,149,89,121,41,258,88,7.9,8.0,7.7,157
+PT-0032,Divya K.,F,52,north,Lucknow,Type 2 diabetes mellitus,E11.9,9.0,33.2,98.7,True,True,True,0,-0.05,False,False,False,75.0,132,85,137,47,177,87,7.6,7.8,7.9,142
+PT-0033,Karthik G.,M,53,north,Jaipur,Type 2 diabetes mellitus,E11.9,17.5,30.6,103.8,True,False,True,0,0.74,True,True,False,74.7,117,91,115,33,289,84,8.1,7.8,7.7,167
+PT-0034,Geeta G.,F,56,east,Guwahati,Type 2 diabetes mellitus,E11.9,16.5,24.5,79.4,False,False,True,1,0.6,True,False,False,67.1,147,77,111,46,223,84,7.2,7.2,6.9,143
+PT-0035,Bhavesh R.,M,53,south,Bengaluru,Type 2 diabetes mellitus,E11.9,1.9,23.9,90.5,False,False,False,1,0.24,True,False,False,67.7,142,78,105,31,96,82,7.7,8.2,8.2,151
+PT-0036,Anjali K.,F,55,north,Kanpur,Type 2 diabetes mellitus,E11.9,3.4,26.0,81.9,True,False,True,2,0.32,True,False,False,68.9,149,93,81,40,138,79,8.5,8.5,8.2,171
+PT-0037,Radha P.,F,42,west,Ahmedabad,Prediabetes,R73.03,0.0,24.0,77.2,False,True,False,0,0.94,False,False,False,71.4,121,85,138,54,62,95,5.8,5.4,6.3,133
+PT-0038,Ravi D.,M,60,west,Mumbai,Type 2 diabetes mellitus,E11.9,14.5,26.9,88.4,False,False,False,1,0.89,True,False,False,59.5,115,82,120,37,115,68,7.5,7.6,7.8,143
+PT-0039,Usha R.,F,75,east,Ranchi,Type 2 diabetes mellitus,E11.9,6.2,27.1,85.1,False,False,True,2,-0.98,True,False,False,69.1,131,80,101,37,124,81,5.7,5.9,5.6,114
+PT-0040,Usha S.,F,50,west,Vadodara,Type 2 diabetes mellitus,E11.9,0.2,26.3,86.9,False,False,False,0,0.98,False,False,False,72.8,132,79,120,30,105,85,7.0,7.1,7.0,149
+PT-0041,Pranav K.,M,53,north,Chandigarh,Type 2 diabetes mellitus,E11.9,4.1,25.5,92.3,True,True,False,1,0.83,True,False,True,77.0,121,76,113,36,169,100,6.0,5.8,6.5,120
+PT-0042,Venkat R.,M,55,south,Bengaluru,Type 2 diabetes mellitus,E11.9,8.2,23.8,89.7,True,True,False,1,0.41,True,False,True,70.5,135,75,99,50,135,87,7.7,8.0,7.9,135
+PT-0043,Gurpreet N.,M,54,south,Bengaluru,Type 2 diabetes mellitus,E11.9,2.4,29.5,96.7,True,True,True,1,0.69,False,False,False,72.8,144,91,98,41,287,79,8.0,8.1,8.4,147
+PT-0044,Harpreet S.,F,38,north,Kanpur,Type 2 diabetes mellitus,E11.9,0.8,28.9,87.0,False,False,True,1,1.16,True,True,False,63.5,131,84,83,49,149,95,8.0,7.7,8.0,142
+PT-0045,Anjali P.,F,58,west,Ahmedabad,Type 2 diabetes mellitus,E11.9,2.1,25.5,79.6,True,True,False,0,0.06,True,True,False,71.9,132,78,141,46,242,72,8.1,8.3,8.8,161
+PT-0046,Bhavesh K.,M,54,west,Mumbai,Type 2 diabetes mellitus,E11.9,3.5,25.9,84.1,True,False,True,0,-0.31,True,False,True,65.5,153,87,128,35,155,78,7.5,7.6,7.9,153
+PT-0047,Pranav P.,M,58,west,Mumbai,Type 2 diabetes mellitus,E11.9,17.2,27.6,91.3,False,False,False,1,1.51,True,False,False,70.7,117,78,133,31,152,85,7.5,7.7,7.7,116
+PT-0048,Bhavesh R.,M,52,south,Hyderabad,Type 2 diabetes mellitus,E11.9,6.0,25.1,86.1,True,True,True,0,-0.01,True,False,False,74.1,127,93,135,44,232,72,8.1,7.6,7.5,180
+PT-0049,Pooja M.,F,56,south,Coimbatore,Type 2 diabetes mellitus,E11.9,1.3,27.3,80.5,True,False,False,0,0.81,True,True,False,85.8,129,86,107,43,213,87,8.8,8.6,8.1,175
+PT-0050,Deepak R.,M,51,south,Coimbatore,Type 2 diabetes mellitus,E11.9,15.0,25.8,85.5,True,True,False,1,1.07,False,False,False,64.9,143,87,166,29,260,86,7.8,8.1,8.2,138
+PT-0051,Rekha G.,F,59,south,Chennai,Type 2 diabetes mellitus,E11.9,11.6,23.2,73.6,False,False,False,1,-0.06,True,False,False,73.7,128,77,80,40,119,95,5.1,5.5,5.6,89
+PT-0052,Usha G.,F,61,south,Hyderabad,Type 2 diabetes mellitus,E11.9,7.5,24.3,79.9,False,True,False,0,1.01,True,False,True,61.7,141,86,134,44,254,87,7.0,7.2,7.2,132
+PT-0053,Arjun G.,M,53,north,Delhi,Type 2 diabetes mellitus,E11.9,5.9,25.9,82.4,False,False,False,0,-1.04,False,False,False,57.8,142,70,126,36,187,89,6.9,7.1,7.1,134
+PT-0054,Gurpreet K.,M,47,south,Bengaluru,Type 2 diabetes mellitus,E11.9,12.5,22.1,86.1,False,False,False,1,-0.25,False,False,False,75.0,126,87,113,36,227,82,6.7,7.1,6.8,121
+PT-0055,Manoj M.,M,56,west,Ahmedabad,Type 2 diabetes mellitus,E11.9,6.0,34.9,108.6,True,True,False,1,-0.57,True,False,False,74.0,142,76,126,34,133,79,8.3,8.8,9.7,156
+PT-0056,Sunita S.,F,53,north,Delhi,Type 2 diabetes mellitus,E11.9,18.1,24.7,83.0,True,True,False,0,-0.49,False,False,True,73.4,137,89,132,50,197,105,7.5,8.2,8.1,137
+PT-0057,Ashok M.,M,57,south,Kochi,Type 2 diabetes mellitus,E11.9,1.8,25.8,84.4,False,False,True,1,0.78,True,False,True,73.1,132,72,119,48,199,69,6.6,6.9,6.6,133
+PT-0058,Ashok S.,M,59,west,Mumbai,Type 2 diabetes mellitus,E11.9,7.0,21.3,74.9,True,False,False,2,-0.42,True,False,False,63.1,135,95,108,46,117,84,6.3,6.2,6.1,111
+PT-0059,Harish S.,M,56,north,Jaipur,Type 2 diabetes mellitus,E11.9,6.8,27.5,97.6,False,False,True,1,-0.12,True,False,False,56.1,114,76,126,49,134,76,6.7,7.0,7.0,153
+PT-0060,Suresh G.,M,45,north,Jaipur,Type 2 diabetes mellitus,E11.9,0.6,28.2,102.8,False,True,False,0,1.02,True,False,False,53.9,133,90,154,57,171,96,6.3,5.8,6.2,135
+PT-0061,Swati P.,F,61,west,Vadodara,Type 2 diabetes mellitus,E11.9,3.0,22.7,79.0,False,False,True,0,0.84,True,False,False,64.7,141,81,51,37,155,92,7.1,7.3,6.6,149
+PT-0062,Anil S.,M,48,south,Kochi,Type 2 diabetes mellitus,E11.9,7.7,23.9,82.8,False,True,True,1,0.54,True,False,False,57.8,128,67,123,48,259,103,6.7,6.7,7.0,151
+PT-0063,Arjun N.,M,58,south,Hyderabad,Type 2 diabetes mellitus,E11.9,3.4,23.7,89.0,True,True,False,0,-1.28,True,False,False,67.8,141,74,131,32,286,82,7.1,7.2,7.1,146
+PT-0064,Rahul M.,M,61,west,Mumbai,Type 2 diabetes mellitus,E11.9,4.6,23.9,87.9,False,False,True,0,-1.18,True,False,False,61.9,117,66,86,48,83,81,5.6,5.9,5.9,97
+PT-0065,Bhavesh I.,M,39,south,Chennai,Prediabetes,R73.03,0.0,30.6,106.2,False,False,True,0,-1.31,False,False,False,61.3,126,81,75,29,129,102,6.2,6.4,6.9,101
+PT-0066,Venkat M.,M,52,south,Chennai,Type 2 diabetes mellitus,E11.9,3.9,24.0,82.2,True,True,False,1,0.48,True,True,False,69.8,133,84,146,27,248,105,8.0,7.6,8.0,180
+PT-0067,Mahesh I.,M,57,south,Hyderabad,Type 2 diabetes mellitus,E11.9,25.0,28.1,98.7,True,True,False,0,1.66,True,True,False,67.5,151,83,134,35,223,93,7.9,7.9,7.8,160
+PT-0068,Hitesh Y.,M,60,north,Delhi,Type 2 diabetes mellitus,E11.9,2.9,24.4,91.5,True,True,True,0,0.07,True,False,False,76.1,122,92,127,46,103,66,7.0,6.9,7.0,159
+PT-0069,Sunita K.,F,52,north,Kanpur,Type 2 diabetes mellitus,E11.9,4.5,25.5,86.6,True,True,False,1,-2.1,True,False,False,60.5,135,86,151,50,102,90,6.0,6.1,6.9,104
+PT-0070,Usha I.,F,39,south,Kochi,Prediabetes,R73.03,0.0,19.2,68.3,False,False,True,0,0.11,False,False,False,63.8,121,79,106,46,187,101,5.9,6.2,6.8,113
+PT-0071,Imran I.,M,48,south,Chennai,Prediabetes,R73.03,0.0,24.7,85.0,False,True,False,0,-1.41,False,False,False,67.0,133,70,120,34,129,88,5.7,5.5,5.9,131
+PT-0072,Jyoti P.,F,41,west,Mumbai,Type 2 diabetes mellitus,E11.9,4.9,26.7,88.4,True,True,True,0,0.68,True,False,True,75.2,135,101,104,37,194,82,7.4,7.8,7.9,150
+PT-0073,Rahul R.,M,49,south,Hyderabad,Type 2 diabetes mellitus,E11.9,5.6,24.1,81.7,False,False,False,1,1.1,True,True,False,69.1,148,75,92,22,220,82,8.5,9.1,9.5,155
+PT-0074,Gurpreet G.,M,56,south,Hyderabad,Prediabetes,R73.03,0.0,23.3,83.4,False,False,False,1,0.36,False,False,False,61.6,120,74,110,43,92,105,6.1,6.2,6.4,115
+PT-0075,Vikram R.,M,57,south,Kochi,Type 2 diabetes mellitus,E11.9,18.3,27.4,92.7,True,True,False,0,-0.95,False,False,True,74.7,127,86,122,45,148,72,6.2,6.6,6.5,126
+PT-0076,Lakshmi G.,F,46,south,Bengaluru,Type 2 diabetes mellitus,E11.9,9.8,28.7,86.3,False,True,True,0,0.48,True,False,True,69.5,126,77,146,47,129,94,7.8,7.4,7.2,147
+PT-0077,Karthik K.,M,46,north,Kanpur,Type 2 diabetes mellitus,E11.9,8.5,21.8,82.8,False,False,False,2,0.44,True,False,False,60.7,124,77,152,47,96,90,6.4,6.4,6.7,98
+PT-0078,Rahul T.,M,36,west,Pune,Type 2 diabetes mellitus,E11.9,0.7,29.3,100.3,False,True,False,1,0.11,True,False,False,71.9,116,89,68,33,198,93,6.9,7.4,7.6,122
+PT-0079,Bhavna S.,F,50,north,Jaipur,Type 2 diabetes mellitus,E11.9,2.7,25.4,79.0,True,False,False,2,0.04,True,False,False,71.5,135,81,137,47,152,87,6.9,6.4,6.9,116
+PT-0080,Hetal R.,F,56,south,Chennai,Type 2 diabetes mellitus,E11.9,3.6,29.9,97.2,True,False,False,1,1.23,True,False,False,75.9,133,89,131,35,244,77,8.2,8.2,8.1,170
+PT-0081,Kavita I.,F,47,south,Coimbatore,Type 2 diabetes mellitus,E11.9,12.6,20.8,67.9,True,False,False,1,-1.02,True,False,False,71.1,134,88,76,41,61,95,5.2,5.0,5.6,98
+PT-0082,Karthik R.,M,55,south,Hyderabad,Type 2 diabetes mellitus,E11.9,2.7,20.6,78.0,False,True,False,1,-0.31,True,False,True,72.2,129,92,153,35,150,104,6.2,6.8,6.8,120
+PT-0083,Joseph S.,M,67,south,Bengaluru,Type 2 diabetes mellitus,E11.9,8.3,23.3,83.3,True,True,False,1,-0.6,True,False,False,65.3,156,79,139,34,180,88,6.3,6.8,7.3,119
+PT-0084,Pranav D.,M,46,east,Bhubaneswar,Type 2 diabetes mellitus,E11.9,5.2,21.7,74.8,False,False,False,0,-0.8,True,False,False,62.2,105,81,137,43,158,99,6.5,6.4,6.7,122
+PT-0085,Radha K.,F,52,north,Chandigarh,Type 2 diabetes mellitus,E11.9,7.6,30.4,101.8,False,True,True,2,0.01,True,False,False,69.2,123,70,106,39,220,92,7.6,7.8,7.7,143
+PT-0086,Sanjay M.,M,47,east,Kolkata,Type 2 diabetes mellitus,E11.9,1.8,27.7,97.7,False,True,False,0,-0.28,True,False,False,72.4,112,76,135,31,146,106,7.4,6.6,6.4,152
+PT-0087,Ramesh T.,M,42,west,Mumbai,Type 2 diabetes mellitus,E11.9,6.8,23.3,82.5,True,False,False,1,-1.59,True,False,False,66.1,135,96,119,35,88,83,5.2,5.6,5.7,99
+PT-0088,Hetal G.,F,52,south,Chennai,Type 2 diabetes mellitus,E11.9,10.8,25.7,79.7,True,True,True,0,0.81,True,False,False,69.0,124,82,106,39,223,80,7.3,7.6,7.6,131
+PT-0089,Arjun I.,M,49,south,Bengaluru,Type 2 diabetes mellitus,E11.9,0.5,25.1,89.9,False,True,True,1,0.25,True,True,False,73.9,142,83,66,37,216,84,7.5,8.1,8.5,162
+PT-0090,Hitesh R.,M,55,south,Hyderabad,Type 2 diabetes mellitus,E11.9,5.7,29.0,96.8,True,True,True,0,0.34,True,True,False,71.3,134,88,150,22,305,77,9.3,8.6,8.5,200
+PT-0091,Hitesh S.,M,44,north,Lucknow,Type 2 diabetes mellitus,E11.9,13.9,23.4,79.6,False,True,True,1,-0.59,False,False,False,67.5,134,86,132,41,159,119,7.0,7.3,6.9,129
+PT-0092,Sunil N.,M,55,south,Hyderabad,Type 2 diabetes mellitus,E11.9,7.4,22.2,73.8,False,False,True,0,0.14,False,False,False,68.6,123,64,71,41,154,85,7.2,7.2,7.3,128
+PT-0093,Divya D.,F,68,east,Ranchi,Type 2 diabetes mellitus,E11.9,14.6,30.8,94.9,False,True,True,2,1.18,True,False,False,77.8,128,84,131,37,222,67,10.3,9.5,10.3,202
+PT-0094,Manoj P.,M,53,west,Pune,Type 2 diabetes mellitus,E11.9,3.7,25.7,92.9,False,True,False,0,-2.27,True,False,False,68.5,119,77,121,39,100,91,5.6,5.5,6.2,104
+PT-0095,Karthik R.,M,37,south,Bengaluru,Type 2 diabetes mellitus,E11.9,2.4,29.7,95.6,False,False,False,2,-0.6,False,False,True,71.1,140,60,119,46,248,96,7.5,7.6,7.5,159
+PT-0096,Swati B.,F,47,east,Guwahati,Type 2 diabetes mellitus,E11.9,8.7,30.4,100.4,True,True,False,0,-0.6,True,False,False,74.7,136,87,164,44,197,101,8.0,8.4,8.4,182
+PT-0097,Bhavna N.,F,62,south,Hyderabad,Type 2 diabetes mellitus,E11.9,3.8,27.7,88.0,False,True,False,0,-0.38,True,False,False,72.1,129,79,116,40,227,88,7.0,7.2,7.4,135
+PT-0098,Venkat S.,M,55,east,Bhubaneswar,Type 2 diabetes mellitus,E11.9,12.2,32.3,107.5,False,True,True,2,1.12,True,True,False,71.3,134,81,128,47,130,80,8.5,8.5,8.4,191
+PT-0099,Vikram R.,M,61,south,Hyderabad,Type 2 diabetes mellitus,E11.9,5.9,26.5,84.7,True,True,False,1,-0.06,True,True,False,67.7,141,93,129,38,230,78,8.5,8.8,8.8,165
+PT-0100,Fatima R.,F,37,south,Coimbatore,Type 2 diabetes mellitus,E11.9,5.8,24.8,83.4,True,False,True,1,2.0,True,False,False,74.9,144,91,152,43,192,93,9.1,9.2,9.2,188
+PT-0101,Pooja I.,F,28,south,Bengaluru,Prediabetes,R73.03,0.0,25.0,84.2,False,False,False,1,-1.34,False,False,False,65.4,135,82,159,41,119,115,6.3,6.2,5.9,113
+PT-0102,Karthik R.,M,33,south,Bengaluru,Prediabetes,R73.03,0.0,22.2,75.5,False,False,False,1,-1.92,False,False,False,65.3,111,80,118,45,154,94,6.1,5.9,5.8,112
+PT-0103,Mahesh T.,M,43,west,Mumbai,Type 2 diabetes mellitus,E11.9,1.4,29.2,101.5,False,True,True,1,-0.97,True,False,True,68.1,121,83,116,45,183,84,7.4,7.6,7.5,178
+PT-0104,Asha D.,F,41,west,Mumbai,Type 2 diabetes mellitus,E11.9,5.9,21.2,74.4,False,False,True,1,-1.76,False,False,False,59.1,115,84,139,42,142,111,6.6,6.8,7.0,148
+PT-0105,Priya S.,F,54,north,Lucknow,Type 2 diabetes mellitus,E11.9,5.1,24.1,73.4,False,True,False,1,-0.44,True,False,False,64.3,132,80,120,37,140,91,6.5,7.3,7.0,135
+PT-0106,Sunil G.,M,43,east,Patna,Type 2 diabetes mellitus,E11.9,7.9,32.4,101.2,True,True,False,0,1.34,True,False,False,71.5,140,89,129,40,191,86,8.1,8.1,8.2,166
+PT-0107,Gurpreet S.,M,31,south,Hyderabad,Prediabetes,R73.03,0.0,28.7,103.3,False,True,False,1,0.2,False,False,False,59.0,119,83,82,28,134,106,6.3,7.0,6.8,108
+PT-0108,Kavita V.,F,58,north,Jaipur,Type 2 diabetes mellitus,E11.9,9.5,22.9,78.4,False,True,True,0,0.22,True,False,False,64.0,122,106,131,58,171,86,4.7,5.0,4.8,103
+PT-0109,Karthik K.,M,57,south,Coimbatore,Type 2 diabetes mellitus,E11.9,7.8,23.4,81.3,True,True,False,0,0.49,True,True,False,78.5,148,87,150,22,307,78,8.3,8.9,8.6,173
+PT-0110,Suresh I.,M,32,south,Chennai,Prediabetes,R73.03,0.0,22.9,88.6,False,True,True,0,-0.6,False,False,False,62.4,121,72,123,38,115,107,5.9,5.7,7.2,115
+PT-0111,Anil M.,M,55,west,Pune,Type 2 diabetes mellitus,E11.9,4.6,25.9,88.4,False,True,True,1,-1.44,True,False,False,70.3,117,81,117,39,154,92,5.7,5.5,6.0,107
+PT-0112,Swati S.,F,60,north,Jaipur,Type 2 diabetes mellitus,E11.9,4.8,25.7,89.8,True,True,True,1,0.33,True,False,False,61.8,130,89,130,28,178,96,7.0,7.0,7.6,145
+PT-0113,Deepak T.,M,42,west,Vadodara,Type 2 diabetes mellitus,E11.9,20.3,22.4,80.7,True,True,False,1,0.55,True,False,True,74.3,136,83,156,34,228,102,7.6,8.1,8.5,136
+PT-0114,Farhan M.,M,36,west,Mumbai,Type 2 diabetes mellitus,E11.9,1.7,21.5,81.4,False,True,True,2,-0.08,True,False,True,69.4,133,82,143,31,196,90,6.8,7.0,7.0,150
+PT-0115,Bhavna P.,F,42,west,Ahmedabad,Type 2 diabetes mellitus,E11.9,1.2,30.7,96.8,False,False,True,0,0.38,True,True,False,67.8,116,87,131,44,91,84,7.7,8.1,8.2,146
+PT-0116,Suresh S.,M,60,north,Lucknow,Type 2 diabetes mellitus,E11.9,5.1,25.1,89.7,False,False,False,1,0.12,True,False,False,66.3,113,71,123,30,102,97,5.8,6.1,6.3,113
+PT-0117,Venkat K.,M,47,north,Delhi,Type 2 diabetes mellitus,E11.9,9.6,25.8,95.1,False,True,True,1,0.45,True,False,False,65.7,133,90,78,41,177,93,6.7,7.2,7.5,133
+PT-0118,Divya S.,F,56,north,Jaipur,Type 2 diabetes mellitus,E11.9,4.3,23.3,74.3,False,False,True,1,-0.21,True,False,False,69.3,133,77,117,55,130,88,6.0,6.2,6.5,120
+PT-0119,Mary M.,F,33,south,Hyderabad,Type 2 diabetes mellitus,E11.9,8.1,29.2,91.7,False,False,False,0,-0.14,True,False,False,68.6,115,78,104,42,114,92,6.6,6.6,7.2,113
+PT-0120,Rahul S.,M,32,east,Bhubaneswar,Type 2 diabetes mellitus,E11.9,3.5,24.8,93.0,False,False,True,1,-0.63,True,False,False,69.4,120,84,103,49,182,89,6.3,6.6,5.7,131

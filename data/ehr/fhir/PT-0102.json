@@ -1,0 +1,393 @@
+{
+ "resourceType": "Bundle",
+ "type": "collection",
+ "id": "bundle-PT-0102",
+ "entry": [
+  {
+   "resource": {
+    "resourceType": "Patient",
+    "id": "PT-0102",
+    "name": [
+     {
+      "text": "Karthik R."
+     }
+    ],
+    "gender": "male",
+    "extension": [
+     {
+      "url": "age-years",
+      "valueInteger": 33
+     }
+    ],
+    "address": [
+     {
+      "city": "Bengaluru",
+      "country": "IN"
+     }
+    ],
+    "meta": {
+     "tag": [
+      {
+       "code": "synthetic",
+       "display": "Synthetic record, not a real person"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Condition",
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "code": {
+     "coding": [
+      {
+       "system": "http://hl7.org/fhir/sid/icd-10",
+       "code": "R73.03",
+       "display": "Prediabetes"
+      }
+     ]
+    },
+    "extension": [
+     {
+      "url": "duration-years",
+      "valueDecimal": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 6.1,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "1558-6",
+       "display": "Fasting glucose [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 112.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "39156-5",
+       "display": "Body mass index (BMI) [Ratio]"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 22.2,
+     "unit": "kg/m2"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8280-0",
+       "display": "Waist Circumference at umbilicus by Tape measure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 75.5,
+     "unit": "cm"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8480-6",
+       "display": "Systolic blood pressure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 111.0,
+     "unit": "mm[Hg]"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "8462-4",
+       "display": "Diastolic blood pressure"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 80.0,
+     "unit": "mm[Hg]"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "18262-6",
+       "display": "Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 118.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2085-9",
+       "display": "Cholesterol in HDL [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 45.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "2571-8",
+       "display": "Triglyceride [Mass/volume] in Serum or Plasma"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 154.0,
+     "unit": "mg/dL"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "62238-1",
+       "display": "Glomerular filtration rate/1.73 sq M.predicted (CKD-EPI)"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 94.0,
+     "unit": "mL/min/{1.73_m2}"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "40443-4",
+       "display": "Heart rate --resting"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-08-20",
+    "valueQuantity": {
+     "value": 65.3,
+     "unit": "/min"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2026-02-18",
+    "valueQuantity": {
+     "value": 5.9,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "4548-4",
+       "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "effectiveDateTime": "2025-08-22",
+    "valueQuantity": {
+     "value": 5.8,
+     "unit": "%"
+    }
+   }
+  },
+  {
+   "resource": {
+    "resourceType": "Observation",
+    "status": "final",
+    "code": {
+     "coding": [
+      {
+       "system": "http://loinc.org",
+       "code": "69548-6",
+       "display": "Genetic variant assessment"
+      }
+     ]
+    },
+    "subject": {
+     "reference": "Patient/PT-0102"
+    },
+    "component": [
+     {
+      "code": {
+       "text": "TCF7L2 rs7903146 T allele count"
+      },
+      "valueInteger": 1
+     },
+     {
+      "code": {
+       "text": "Type 2 diabetes polygenic risk score (z)"
+      },
+      "valueDecimal": -1.92
+     }
+    ]
+   }
+  }
+ ]
+}

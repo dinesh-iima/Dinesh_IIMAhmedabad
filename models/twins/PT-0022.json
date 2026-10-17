@@ -1,0 +1,51 @@
+{
+ "ehr": {
+  "on_metformin": true,
+  "on_sulfonylurea": true,
+  "on_dpp4i": false,
+  "hypertension": false,
+  "dyslipidaemia": false,
+  "family_history_t2d": false,
+  "patient_id": "PT-0022",
+  "sex": "F",
+  "age": 53,
+  "icd10": "E11.9",
+  "diabetes_duration_y": 5.6,
+  "fpg_mgdl": 172.0,
+  "bmi": 28.0,
+  "waist_cm": 87.4,
+  "sbp": 132.0,
+  "dbp": 82.0,
+  "ldl": 156.0,
+  "hdl": 30.0,
+  "triglycerides": 157.0,
+  "egfr": 93.0,
+  "resting_hr": 72.0,
+  "tcf7l2_rs7903146_risk_alleles": 1,
+  "t2d_prs": 0.74,
+  "hba1c_pct": 7.7,
+  "hba1c_trend_12m": 0.8
+ },
+ "prior": {
+  "SI": 0.0002807702359732992,
+  "gamma": 0.06554994018019435,
+  "Gb": 163.9,
+  "dawn": 10.8,
+  "Ib": 8.5,
+  "weight": 69.0172,
+  "V": 110.42752000000002
+ },
+ "params": {
+  "SI": 0.0004119368259916521,
+  "gamma": 0.0581375815714015,
+  "Gb": 167.4,
+  "dawn": 0.0,
+  "Ib": 8.5,
+  "weight": 69.0172,
+  "V": 110.42752000000002
+ },
+ "fit": {
+  "calibration_days": 7,
+  "forecast_rmse_mgdl": 31.2
+ }
+}
