@@ -258,7 +258,7 @@ Swapping the usual rice, sambar and poriyal lunch for bajra roti and dal lowers 
 ## 14. Quick start
 
 ```bash
-git clone https://github.com/missionppo2027-collab/Dinesh_IIMAhmedabad.git
+git clone https://github.com/dinesh-iima/Dinesh_IIMAhmedabad.git
 cd Dinesh_IIMAhmedabad
 pip install -r requirements.txt
 
