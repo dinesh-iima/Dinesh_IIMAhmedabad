@@ -54,7 +54,7 @@ All data is synthetic; no real patient data is used anywhere (see [Data and the 
 | Institute | **Indian Institute of Management Ahmedabad (IIMA)** |
 | Location | Vastrapur, Ahmedabad, Gujarat, India |
 | Programme | PGP-FABM 2025-27 |
-| Submission folder | `Dinesh_IIMAhmedabad` (Team Name_College Name) |
+| Submission folder | `NotTwin_IIMAhmedabad` (Team Name_College Name) |
 
 ## 3. Project title
 
@@ -258,8 +258,8 @@ Swapping the usual rice, sambar and poriyal lunch for bajra roti and dal lowers 
 ## 14. Quick start
 
 ```bash
-git clone https://github.com/dinesh-iima/Dinesh_IIMAhmedabad.git
-cd Dinesh_IIMAhmedabad
+git clone https://github.com/dinesh-iima/NotTwin_IIMAhmedabad.git
+cd NotTwin_IIMAhmedabad
 pip install -r requirements.txt
 
 # open the doctor console on the data already in the repo
@@ -287,7 +287,7 @@ The challenge requires anonymised, open-source or synthetic data. GlucoSentinel 
 ## 15. Repository structure
 
 ```
-Dinesh_IIMAhmedabad/
+NotTwin_IIMAhmedabad/
 |-- README.md                 this file (all 12 required items)
 |-- LICENSE                   MIT
 |-- requirements.txt
