@@ -41,7 +41,7 @@ All data is synthetic; no real patient data is used anywhere (see [Data and the 
 
 | Field | Detail |
 |---|---|
-| Team name | **Dinesh** |
+| Team name | **Not Twin** |
 | Team leader | **Dinesh D S** |
 | Team size | 1 |
 | Programme | Post Graduate Programme in Food and Agri-Business Management (PGP-FABM), 2025-27 |
@@ -148,7 +148,7 @@ Calibrated insulin sensitivity correlates **r = 0.92** (log scale) with the simu
 
 ## 8. Demo video
 
-**Demo video (unlisted YouTube, about 20 minutes): https://youtu.be/ADD_YOUR_VIDEO_ID**
+**Demo video (unlisted YouTube, about 13 minutes): https://youtu.be/rRjX1TBX9n8**
 
 The video walks through the presentation and then demonstrates the live doctor console.
 
