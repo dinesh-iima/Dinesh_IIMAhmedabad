@@ -148,9 +148,9 @@ Calibrated insulin sensitivity correlates **r = 0.92** (log scale) with the simu
 
 ## 8. Demo video
 
-**Demo video (unlisted YouTube, about 13 minutes): https://youtu.be/rRjX1TBX9n8**
+**Demo video (unlisted YouTube, about 17 minutes): https://youtu.be/GLxPbrkU84k**
 
-The video walks through the presentation and then demonstrates the live doctor console.
+The video walks through the presentation (about 13 minutes) and then demonstrates the live doctor console (Part 2, from 12:58).
 
 ## 9. Open-source licence
 
